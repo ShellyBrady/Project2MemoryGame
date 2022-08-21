@@ -1,6 +1,22 @@
 body {
-    background: url(assets/images/milkyway.jpg);
+    
     background-color: grey;
 
+}
+
+
+
+/*position later Button */    
+.go { 
+background-color: red;    
+height: 100px;
+width: 100px;
+border-radius: 50%;
+border: 1px solid red;
+font: orbitron,exo2, sans;
+color: white;
+font-weight: 600;
+font-size:150%;
 
 }
+    

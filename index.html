@@ -13,11 +13,63 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <title>Space Memory Game</title>
+    <title>Space Explorer Memory Game</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <h1>Space Explorer Memory Game</h1>
+        </header>
+        
+        <!--Big Countdown timer in seconds-->
+        <div class="countdown">
+            timer coundown
+        </div>
+        
+        <!--Cards 4*4 grid, pop up msg, playagain btn-->
+        <div class="grid">
+            
+        <!--go big red button-->
+        <button class="go" id="start" onclick="startGame()">Go!</button>
+            
+        </div>
 
+
+        
+       
+        
+        <!--scores kept til page refreshed-->
+        <div class="score-area">
+            <p class="scores">Missions Won <span id="score">0</span></p>
+            <p class="scores">Missions Lost <span id="lost">0</span></p>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <!--link for JavaScript-->
     <script src="assets/js/script.js"></script>
 </body>
 </html>

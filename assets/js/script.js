@@ -1,16 +1,11 @@
 let cardArray = [
-    {name: "carinanebula", img:"carinanebula.jpg", },
-    {name: "earthfromgalileo", img:"earthfromgalileo.jpg", },
-    {name: "", img:"", },
-    {name: "carinanebula", img:"carinanebula.jpg", },
-    {name: "carinanebula", img:"carinanebula.jpg", },
-    {name: "carinanebula", img:"carinanebula.jpg", },
-    {name: "carinanebula", img:"carinanebula.jpg", },
-    {name: "carinanebula", img:"carinanebula.jpg", },
+   
+let grid = documnt.querySelector(".grid");
+let countdown = document.querySelector(".countdown");
+let go = document.querySelector(".go");
+let 
 
 
 
 
-
-]
 

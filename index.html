@@ -9,10 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2&family=Orbitron&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+   
     <title>Space Explorer Memory Game</title>
 </head>
 <body>
@@ -23,11 +20,53 @@
         
         <!--Big Countdown timer in seconds-->
         <div class="countdown">
-            timer coundown
+            Timer Countdown:
         </div>
         
         <!--Cards 4*4 grid, pop up msg, playagain btn-->
-        <div class="grid">
+       <div class="cards">
+          <div class="card" name="jupiter">
+            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661286893/Space%20Memory%20Game/jupiterjameswebbtelescope.jpg"
+            alt="Jupiter seen through the James Webb Telescope"/>
+          </div>
+
+          <div class="card" name="carina-nebula">
+            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661287267/Space%20Memory%20Game/carina-nebulajameswebbtelescope.jpg"
+            alt="Carina Nebula seen through the James Webb Telescope"/>
+          </div>
+
+          <div class="card" name="stephanquintet">
+            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661287372/Space%20Memory%20Game/stephansquintetjameswebbtelescope.jpg"
+            alt="Stephan's Quintet seen through the James Webb Telescope"/>
+          </div>
+
+          <div class="card" name="southernring">
+            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661287433/Space%20Memory%20Game/southernringjameswebbtelescope.jpg"
+            alt="The Southern Ring seen through the James Webb Telescope"/>
+          </div>
+
+          <div class="card" name="deepfield">
+            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661290624/Space%20Memory%20Game/moon-crater.jpg"
+            alt="deep field seen from James Webb Telescope"/>
+          </div>
+
+          <div class="card" name="lagoon-nebula">
+            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661381324/Space%20Memory%20Game/lagoon-nebula.jpg"
+            alt="The Lagoon Nebula seen though telescope"/>
+          </div>
+
+          <div class="card" name="orion-nebula">
+            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661381699/Space%20Memory%20Game/orion-nebula.jpg"
+            alt="The Orion Nebula seen through telescope"/>
+          </div>
+
+          <div class="card" name="milky-way">
+            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661381761/Space%20Memory%20Game/milky-way.jpg"
+            alt="The Milky Way seen through telescope"/>
+          </div>
+       </div>
+
+         
             
         <!--go big red button-->
         <button class="go" id="start" onclick="startGame()">Go!</button>

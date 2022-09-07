@@ -51,16 +51,17 @@ text-align: center;
 
 /*style cards*/
 
-.cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2em;
-  }
+.game-area {
+ position:absolute;
+ top: 50%;
+ left: 50%;
+ transform: (-50%, -50%);
+}
 
-  .card:hover {
-    transform: scale(1.03);
-  }
-  
+.disabled {
+  color: aliceblue;
+}
+
   .card img {
     width: 80%;
     max-height: 90px;

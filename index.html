@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2&family=Orbitron&display=swap" rel="stylesheet">
-   
+    
     <title>Space Explorer Memory Game</title>
 </head>
 <body>
+  <!--Game Heading-->
     <div class="container">
         <header>
             <h1>Space Explorer Memory Game</h1>
@@ -24,7 +25,8 @@
         </div>
         
         <!--Cards 4*4 grid, pop up msg, playagain btn-->
-       <div class="cards">
+       <div class="game-area">
+        <div class="board" data-dimension="4">
           <div class="card" name="jupiter">
             <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661286893/Space%20Memory%20Game/jupiterjameswebbtelescope.jpg"
             alt="Jupiter seen through the James Webb Telescope"/>
@@ -64,11 +66,14 @@
             <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661381761/Space%20Memory%20Game/milky-way.jpg"
             alt="The Milky Way seen through telescope"/>
           </div>
+         </div>
+         <!--winning message-->
+         <div class="win">You won!</div>
        </div>
 
          
             
-        <!--go big red button-->
+        <!--go button-->
         <button class="go" id="start" onclick="startGame()">Go!</button>
             
         </div>

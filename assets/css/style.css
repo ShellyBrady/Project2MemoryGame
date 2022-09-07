@@ -1,27 +1,35 @@
 body {
-    
-    background-color: grey;
-
+background-color: grey;
 }
 
+html,body {
+margin:0;
+padding:0;
+text-align:center;
+}
 
 
 /*position later Button */    
-.go { 
-background-color: red;    
-height: 170px;
+.go {   
+height: 70px;
 width: 170px;
-border-radius: 50%;
-border: 1px solid red;
-font: orbitron,exo2, sans;
+border-radius: 5%;
 color: white;
 font-weight: 600;
-font-size:150%;
+padding:15px;
 margin: auto;
+font-size: xx-large;
+}
+
+button#start.go{
+background-color: #62de6d; 
+border: #62de6d;
+
 }
 
 button {
-    margin: auto;
+margin: 0;
+align-items: center;
 }
 
 h1 {

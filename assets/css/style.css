@@ -41,8 +41,11 @@ text-align: center;
 }
 
 /*style timer*/
+#time-counter {
+  align-items: center;
+}
 
-.countdown {
+.time-container {
 font-family: 'orbitron', bebas neue, sans-serif;
 color: white;
 font-size: 300%;

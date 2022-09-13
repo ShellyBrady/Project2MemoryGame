@@ -11,64 +11,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2&family=Orbitron&display=swap" rel="stylesheet">
     
     <title>Space Explorer Memory Game</title>
+
 </head>
+
 <body>
-  <!--Game Heading-->
+    <!--Game Heading-->
     <div class="container">
         <header>
             <h1>Space Explorer Memory Game</h1>
         </header>
         
-        <!--Big Countdown timer in seconds-->
-        <div class="countdown">
-            Timer Countdown:
-        </div>
         
         <!--Cards 4*4 grid, pop up msg, playagain btn-->
        <div class="game-area">
-        <div class="board" data-dimension="4">
-          <div class="card" name="jupiter">
-            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661286893/Space%20Memory%20Game/jupiterjameswebbtelescope.jpg"
-            alt="Jupiter seen through the James Webb Telescope"/>
-          </div>
-
-          <div class="card" name="carina-nebula">
-            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661287267/Space%20Memory%20Game/carina-nebulajameswebbtelescope.jpg"
-            alt="Carina Nebula seen through the James Webb Telescope"/>
-          </div>
-
-          <div class="card" name="stephanquintet">
-            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661287372/Space%20Memory%20Game/stephansquintetjameswebbtelescope.jpg"
-            alt="Stephan's Quintet seen through the James Webb Telescope"/>
-          </div>
-
-          <div class="card" name="southernring">
-            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661287433/Space%20Memory%20Game/southernringjameswebbtelescope.jpg"
-            alt="The Southern Ring seen through the James Webb Telescope"/>
-          </div>
-
-          <div class="card" name="deepfield">
-            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661290624/Space%20Memory%20Game/moon-crater.jpg"
-            alt="deep field seen from James Webb Telescope"/>
-          </div>
-
-          <div class="card" name="lagoon-nebula">
-            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661381324/Space%20Memory%20Game/lagoon-nebula.jpg"
-            alt="The Lagoon Nebula seen though telescope"/>
-          </div>
-
-          <div class="card" name="orion-nebula">
-            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661381699/Space%20Memory%20Game/orion-nebula.jpg"
-            alt="The Orion Nebula seen through telescope"/>
-          </div>
-
-          <div class="card" name="milky-way">
-            <img src="https://res.cloudinary.com/dhifyjuus/image/upload/v1661381761/Space%20Memory%20Game/milky-way.jpg"
-            alt="The Milky Way seen through telescope"/>
-          </div>
+         <div class="board" data-dimension="4">
+          
          </div>
-         <!--winning message-->
-         <div class="win">You won!</div>
+        
        </div>
 
          
@@ -76,7 +35,11 @@
         <!--go button-->
         <button class="go" id="start" onclick="startGame()">Go!</button>
             
+        <!--Big Countdown timer in seconds-->
+        <div class="time-container">
+          <div id="time-counter">00 : 00 : 00</div>
         </div>
+        
 
 
         
@@ -87,6 +50,8 @@
             <p class="scores">Missions Won <span id="score">0</span></p>
             <p class="scores">Missions Lost <span id="lost">0</span></p>
         </div>
+
+      </div>
 
         
 
